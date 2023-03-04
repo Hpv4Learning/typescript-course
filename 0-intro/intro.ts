@@ -6,3 +6,9 @@ const corso = {
 }
 
 corso.lezioni
+
+// Esempio di type sefety
+
+let saluto = "ciao"
+// saluto = 1 // errore
+console.log(saluto.toLowerCase()) // VSCode suggerisce il metodo
